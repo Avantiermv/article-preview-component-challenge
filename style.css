@@ -79,18 +79,24 @@ div#share > img{
     padding-top: 7px;
 }
 
+div#share:hover{
+    background-color: var(--cor1);
+}
+
 div#ishare{
+    display: none;
     text-align: center;
     width: 200px;
     height: 70px;
     border-radius: 10px;
     background-color: var(--cor1);
+    transform: translate(278px, -130px);
 }
 
 div#ishare > p{
-    
+    color: var(--cor4);
 }
 
 div#ishare > p > img{
-    margin: 5px;
+    margin-right: 9px;
 }
