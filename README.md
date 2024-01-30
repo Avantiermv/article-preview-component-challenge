@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/Avantiermv/article-preview-component-challenge)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://avantiermv.github.io/article-preview-component-challenge/)
 
 ## My process
 

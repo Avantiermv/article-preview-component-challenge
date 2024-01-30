@@ -101,6 +101,10 @@ div#ishare > p > img{
     margin-right: 9px;
 }
 
+a{
+    text-decoration: none;
+}
+
 footer{
     text-align: center;
 }
