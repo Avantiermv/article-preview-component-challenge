@@ -100,3 +100,13 @@ div#ishare > p{
 div#ishare > p > img{
     margin-right: 9px;
 }
+
+@media (max-width: 600px){
+    main{
+        margin-top: 200px;
+    }
+
+    section{
+        display: block;
+    }
+}
