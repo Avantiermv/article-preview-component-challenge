@@ -101,12 +101,61 @@ div#ishare > p > img{
     margin-right: 9px;
 }
 
+footer{
+    text-align: center;
+}
+
 @media (max-width: 600px){
     main{
-        margin-top: 200px;
+        margin: auto;
     }
 
     section{
         display: block;
+        width: 370px;
+        height: 600px;
+        margin: auto;
+    }
+
+    div#img{
+        width: 370px;
+        height: 230px;
+    }
+
+    div#img > img{
+        width: 370px;
+        height: 230px;
+    }
+
+    div#content{
+        margin-left: 5px;
+    }
+
+    div#content > h1{
+        font-size: 1.3em;
+    }
+
+    div#content > p{
+        font-size: 1em;
+    }
+
+    div#other{
+        margin-top: 0px;
+    }
+
+    div#other > h1{
+        font-size: 1em;
+    }
+
+    div#other > p{
+        font-size: 0.8em;
+    }
+
+    div#share{
+        margin-left: 325px;
+    }
+
+    div#ishare{
+        transform: translate(195px, -130px);
     }
 }
