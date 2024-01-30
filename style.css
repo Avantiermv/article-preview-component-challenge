@@ -1,21 +1,12 @@
 @charset "UTF-8";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+:root{
+    --cor1: white;
+}
 
 main{
-    margin-top: 210px;
+    margin: auto;
+    margin-top: 160px;
 }
 
 section{
@@ -25,4 +16,39 @@ section{
     display: flex;
     background-color: cornflowerblue;
     border-radius: 15px;
+}
+
+div#img > img{
+    margin-right: 5px;
+    width: 480px;
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+div#other{
+    margin-top: 70px;
+}
+
+div#other > h1 > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+div#other > p{
+    margin-left: 40px;
+}
+
+div#share{
+    margin-left: 440px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: blue;
+}
+
+div#share > img{
+    padding-top: 7px;
 }
